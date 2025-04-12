@@ -1,0 +1,151 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+  }
+  
+  .container {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  .header, .footer {
+    text-align: center;
+    background-color: #002244;
+    color: white;
+    padding: 15px 0;
+  }
+  
+  .details-card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .details-card h2 {
+    margin-top: 0;
+  }
+  
+  .details-card ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .details-card li {
+    margin: 10px 0;
+  }
+  
+  .flag {
+    max-width: 200px;
+    border: 1px solid #ccc;
+    margin-bottom: 15px;
+  }
+  
+  .borders {
+    margin-top: 10px;
+  }
+  
+  .border-button {
+    margin: 5px;
+    padding: 6px 12px;
+    background-color: #0066cc;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .border-button:hover {
+    background-color: #004a99;
+  }
+  
+  @media (max-width: 600px) {
+    .flag {
+      max-width: 100%;
+    }
+  
+    .details-card {
+      padding: 15px;
+    }
+  }
+
+  .search-input {
+    width: 250px;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 25px;
+    outline: none;
+    transition: all 0.3s ease;
+    background-color: #fff;
+  }
+  
+  .search-input:focus {
+    border-color: #0066cc;
+    box-shadow: 0 0 8px rgba(0, 102, 204, 0.3);
+  }
+  
+  .filter-dropdown {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    margin-left: 10px;
+    background-color: #fff;
+    cursor: pointer;
+    transition: border-color 0.3s ease;
+  }
+  
+  .filter-dropdown:hover {
+    border-color: #0066cc;
+  }
+  .selector {
+    margin: 20px 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+
+  #bg-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+    object-fit: cover;
+    opacity: 0.5; /* Optional: to make content more readable */
+  }
+  
+  .video-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100vw;
+    min-height: 100vh;
+    object-fit: cover;
+    z-index: -2;
+    opacity: 0.5;
+  }
+  
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.3); /* Optional darkness */
+    z-index: -1;
+  }
+  
+  .container {
+    position: relative;
+    z-index: 1;
+  }
+  
+    
+  
